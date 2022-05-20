@@ -1,0 +1,142 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col-6 {
+    width: 50%;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.page-nav-list {
+    display: flex; 
+}
+.page-nav-list__link {
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.page-nav-list__link:hover,
+.page-nav-list__link:active {
+    color: #7Eb693;
+}
+.cart-btn {
+    border: 1px solid #D4D4D4;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    padding: 7px 28px 7px 11px;
+}
+.cart-btn__img {
+    display: block;
+    margin-right: 10px;
+    background: #274C5B;
+    border-radius: 100px;
+    padding: 12px;
+}
+.hero-section {
+    background-image: url(./img/hero-section.jpg);
+    padding: 220px 0 250px 30px;
+}
+.title{
+    font-family: 'Yellowtail';
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7EB693;
+}
+.head {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 84px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+    background: #EFD372;
+    border: 1px solid #EFD372;
+    border-radius: 16px;
+    display: flex;
+    padding: 24px 9px 24px 30px;
+}
+.line-btn{
+    display: block;
+    margin-left: 24px;
+    border-radius: 50%;
+    background: #335B6B;
+    padding: 11px;
+    width: 38px;
+    height: 34px;
+}
+.promotion-section{
+    display: flex;
+    margin: 140px 30px;
+}
+.promotion-natural {
+    background-image: url(./img/prom-natural.jpg);
+    margin-right: 50px;
+    padding: 105px 55px;
+    border-radius: 30px;
+}
+.promotion-offer {
+    background-image: url(./img/prom-off.jpg);
+    margin-right: 50px;
+    padding: 105px 55px;
+    border-radius: 30px;
+}
+.title_alt {
+    color: #fff;
+}
+.caption {
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+.caption_alt {
+    color: #fff;
+}
