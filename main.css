@@ -68,7 +68,7 @@ img {
     margin-right: 10px;
     background: #274C5B;
     border-radius: 100px;
-    padding: 12px;
+    padding: 15px;
 }
 .hero-section {
     background-image: url(./img/hero-section.jpg);
@@ -139,4 +139,54 @@ img {
 }
 .caption_alt {
     color: #fff;
+}
+.about-us-section {
+    display: flex;
+    margin-bottom: 150px;
+}
+.about-us-caption {
+    display: flex;
+    align-items: center;
+}
+.about-us-section__wrap {
+    margin-top: 56px;
+}
+.sheet-img {
+    width: 46px;
+    height: 46px;
+}
+.mailbox-img {
+    width: 52px;
+    height: 52px;
+}
+.text {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+.about-us-caption__title {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+.about-us-caption__wrap {
+    margin-left: 43px;
+    margin-bottom: 25px;
+}
+.mb-22{
+    margin-bottom: 22px;
+}
+.main-btn-alt{
+    background: #274C5B;
+    border: 1px solid #274C5B;
+    border-radius: 16px;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 20px;
 }
